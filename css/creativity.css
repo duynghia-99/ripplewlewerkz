@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@font-face{
+  font-family:'Montserrat Hairline';
+  src:url("../font/Montserrat-Hairline.eot") format("embedded-opentype"), url("../font/Montserrat-Hairline.woff") format("woff"), url("../font/Montserrat-Hairline.ttf") format("truetype"), url("../font/Montserrat-Hairline.svg") format("svg");font-weight:normal;
+  font-style:normal;
+}
+ @font-face{
+   font-family:'Hominis';src:url("../font/HOMINIS.eot");src:url("../font/HOMINIS.eot/HOMINIS.eot") format("embedded-opentype"), url("../font/HOMINIS.woff2") format("woff2"), url("../font/HOMINIS.woff") format("woff"), url("../font/HOMINIS.ttf") format("truetype");}
+
+.max-img img{
+    max-width: 100%;
+    height:auto;
+}
+/* ---- */
+.vsi-bg-image{
+    position: relative;
+    background:#282b2e;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    color: #fff;
+
+}
+.vsi-bg-image.cd-section {
+    left: 0;
+    width: 100%;
+  background-image: url("../images/creativity/creativity_banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+  }
+  .vsi-bg-image .container{
+    position: relative;
+
+  }
+  .sub-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .sub-container h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+  }
+  .title-img{
+    margin-bottom: 30px;    
+  }
+  .vsi-top-img{
+    text-align: center;
+    position: relative;
+    margin-top: -56px;
+    bottom: -56px;
+}
+  /* ---- */
+
+  .vsi-professional{
+    padding: 180px 0 95px 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .vsi-img-main{  
+    background: url(../images/creativity/man_in_suit.png) no-repeat top left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 0 0;
+    background-size: auto 100%;
+  }
+.vsi-text-professional{
+      z-index: 10;
+      top: 36%;
+      left: 0;
+      width: 100%;
+      padding-left: 20%;
+      padding-right: 15px;
+      position: absolute;  
+  }
+  .vsi-text-professional .auto{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .main-professional{
+    max-width: 100%;
+    width: 35%;
+  }
+  .text-professional{
+    font-size: 16px;
+    color: #282b2e;
+  }
+  .text-professional h1{
+    font-family: 'Cinzel', serif;
+    color: #282b2e;
+    font-size: 50px;
+    padding-bottom: 20px; 
+    line-height: 1.2;
+    font-weight: normal;
+  }
+  .text-professional p{
+    font-weight: normal;
+    line-height: 1.6;
+  }
+.vsi-banner-img{
+    width: 50%;
+    position: relative;
+    float: right;
+  }
+  .vsi-banner-img-mobi{
+    width: 50%;
+    position: relative;
+    display: none;
+    text-align: center;
+  }
+
+
+
+  /* --- */
+  .vsi-funky-colourful{
+    padding: 125px 0;
+    position: relative;  
+}
+.vsi-funky-colourful{
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    min-height: 640px;
+}
+.vsi-funky-colourful.cd-section {
+    background-image: url("../images/creativity/funky_banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+  
+.vsi-funky-colourful.cd-section--bg-fixed {
+    background-attachment: fixed;
+  }
+
+  .vsi-funky-flower{
+    width: 20%;
+    top: -60px;
+    right: 15px;
+    position: absolute;
+  }
+  .vsi-funky-flower img{
+    max-width: 100%;
+    height: auto;
+  }
+  .vsi-bata-pink{
+    width: 20%;
+    bottom: -140px;
+    right: 140px;
+    position: absolute;
+  }
+  .vsi-text-funky{
+    top: 31%;
+    left: 0;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 20%;
+    z-index: 10;
+    position: absolute;
+  }
+  .text-funky{
+    max-width: 100%;
+    width: 38%;
+    float: right;
+  }
+  .text-funky h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Hominis';
+    padding-bottom: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+  }
+  .text-funky p{
+    color: #fff;
+    line-height: 1.6;
+  }
+  .vsi-rolleyes{
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    float: left;
+  }
+  .vsi-rolleyes-mobi{
+    display: none;
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  /*  */
+  .vsi-simple{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 225px;
+    padding-bottom: 250px;
+    display: inline-block;
+    position: relative;
+  }
+  .vsi-fe1-simple{
+    top: 150px;
+    padding-left: 75px;
+    padding-right: 15px;
+    z-index: 10;
+    left: 0;
+    width: 100%;
+    position: absolute;
+  }
+  .text-simple{
+    max-width: 100%;
+    width: 38%;
+    z-index: 2;
+    position: relative;
+    color: #555;
+    font-size: 16px;
+    padding-bottom: 20px;
+    float: left;
+    margin: 0 auto;
+  }
+  .text-simple h1{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-family:'Montserrat Hairline';
+    font-size: 50px;
+  }
+  .text-simple p{
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .text-simple .boder-text{
+    z-index: 0;
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: -59px;
+    width: 209px;
+    height: 140px;
+    border: 2px solid #d5d5d5;
+  }
+  .vsi-tangspac{
+    width: 50%;
+    padding: 0 15px;
+    position: relative;
+    float: right;
+  }
+  .vsi-glass{
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    position: absolute;
+  }
+  .vsi-glass img{
+    max-width: 100%;
+    width: 57%;
+    height: auto;
+  }
+  .vsi-tangspac-mobi{
+    width: 50%;
+    padding: 0 15px;
+    display: none;
+    text-align: center;
+  }
+  .vsi-tablet{
+    width: 23%;
+    bottom: 126px;
+    left: 0;
+    position: absolute;
+  }
+  .vsi-pencil{
+    width: 2%;
+    bottom: 100px;
+    left: 28%;
+    position: absolute;
+  }
+  .vsi-coffee{
+    width: 22%;
+    bottom: 236px;
+    left: 27%;
+    position: absolute;
+  }
+/* ---- */
+.vsi-flat{
+    padding: 225px 15px 295px 15px;
+    background: #2495fa url(../images/creativity/interaction_mountain.png) repeat-x bottom center;
+    position: relative;
+    text-align: center;
+}
+.d-center-align{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+.vsi-fe1-flat{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.vsi-fe1-flat .vsi-sun{
+    margin: 17px 30px 0 50px;
+}
+.vsi-text-flat{
+    max-width: 497px;
+    margin-top: 30px;
+}
+.content-flat{
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+}
+.content-flat h1{
+    font-family: 'Mallanna', sans-serif;
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+.content-flat p{
+  line-height: 1.6;
+}
+.vsi-cloud_1{
+    top: -64px;
+    left: -239px;
+    position: absolute;
+}
+.vsi-cloud_2{
+    top: -144px;
+    left: 318px;
+    position: absolute;
+}
+.vsi-cloud_3{
+  top: -96px;
+  right: 40px;
+  position: absolute;
+}
+
+
+@media (max-width: 575.98px) { 
+
+  .sub-container h1 {
+    font-size: 22px !important;
+  }
+  .vsi-text-professional h1{
+    font-size: 30px;
+  }
+  .vsi-text-professional{
+    padding-left: 0 !important;
+  }
+  .vsi-img-main{
+    display: none;
+  } 
+  .vsi-rolleyes {
+    display: none;
+  }
+  .vsi-funky-colourful {
+    min-height: auto;
+  }
+  .text-funky h1 {
+    font-size: 26px !important;
+}
+  .vsi-rolleyes-mobi {
+    display: flex;
+  }
+  .vsi-text-funky {
+    position: relative;
+    top: 0;
+    padding: 50px 15px 15px 0;
+  }
+  .text-funky{
+    width: auto;
+    padding: 0 15px;
+  }
+  .text-funky h1{
+    font-size: 30px;
+  }
+  .vsi-text-flat h1{
+    font-size: 30px;
+  }
+  .text-simple h1{
+    font-size: 26px;
+  }
+  .text-simple p{
+    font-size: 13px;
+  }
+  
+}
+@media (max-width: 767.98px) {
+
+  .sub-container h1 {
+    font-size: 26px;
+  }
+  .vsi-professional{
+    padding: 0;
+  }
+  .vsi-text-professional{
+    position: relative;
+    top: 0;
+    padding: 50px 0 15px 42%;
+  }
+  .vsi-img-main{
+    background-size: auto 120%;
+  }
+  .main-professional{
+    width: auto;
+    padding: 0 15px;
+  }
+    .text-professional h1{
+    font-size: 30px;
+  }
+  .text-professional p{
+    font-size: 13px;
+  }
+  .vsi-top-img{
+    bottom: -3vh;
+  }
+  .vsi-banner-img{
+    display: none;
+  }
+  .vsi-banner-img-mobi {
+    display: block;
+    width: auto;
+  }
+  .vsi-funky-flower {
+    display: none;
+  }
+  .vsi-text-funky {
+    position: relative;
+    top: 0;
+    padding: 50px 15px 15px 0;
+  }
+  .text-funky{
+    width: auto;
+    padding: 0 15px;
+  }
+  .text-funky h1{
+    font-size: 35px;
+  }
+  .vsi-rolleyes {
+    display: none;
+  }
+  .vsi-funky-colourful{
+    padding: 0;
+  }
+  .vsi-rolleyes-mobi {
+    display: block;
+    width: auto;
+  }
+  .vsi-bata-pink {
+    display: none;
+  }
+  .vsi-simple {
+    padding: 0;
+  }
+  .text-simple .boder-text {
+    display: none;
+  }
+  .text-simple {
+    float: none !important;
+    width: auto;
+    padding: 15px;}
+  .vsi-fe1-simple{
+    padding-left: 0;
+    position: relative;
+    top: 0;
+    padding: 50px 0 0;
+  }
+  .vsi-tangspac{
+    display: none;
+  }
+  .vsi-tangspac-mobi{
+    display: block;
+    width: auto;
+  }
+  .vsi-tablet {
+    width: 42%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    bottom: 0 !important;
+    padding: 20px 0;
+}
+.vsi-pencil{
+    left: 0;
+    width: 2.5%;
+    /* padding: 20px; */
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    bottom: 0 !important;
+    margin: 20px;
+}
+
+.vsi-coffee{
+    left: 0;
+    width: 30%;
+    margin-left: -5%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    bottom: 0 !important;
+    padding: 20px 0;
+  }
+  .vsi-flat{
+    padding: 200px 15px 150px 15px;
+      background-size: 150% auto;
+  }
+  .vsi-text-flat {
+    display: block;
+    width: auto;
+    font-size: 13px;
+  }
+  .vsi-text-flat h1{
+    font-size: 35px;
+  }
+  .vsi-rocket{
+    width: 31%;
+  }
+}
+@media (max-width: 991.98px) {
+  .vsi-professional{
+    padding: 0;
+  }
+  .vsi-text-professional{
+    position: relative;
+    top: 0;
+    padding: 50px 0 15px 42%;
+  }
+  .vsi-img-main{
+    background-size: auto 120%;
+  }
+  .main-professional{
+    width: auto;
+    padding: 0 15px;
+  }
+    .text-professional h1{
+    font-size: 30px;
+  }
+  .text-professional p{
+    font-size: 13px;
+  }
+  .vsi-top-img{
+    bottom: -3vh;
+  }
+  .vsi-banner-img{
+    display: none;
+  }
+  .vsi-banner-img-mobi {
+    display: block;
+    width: auto;
+  }
+  .vsi-funky-flower {
+    display: none;
+  }
+  .vsi-text-funky {
+    position: relative;
+    top: 0;
+    padding: 50px 15px 15px 0;
+  }
+  .text-funky{
+    width: auto;
+    padding: 0 15px;
+  }
+  .text-funky h1{
+    font-size: 35px;
+  }
+  .vsi-rolleyes {
+    display: none;
+  }
+  .vsi-funky-colourful{
+    padding: 0;
+  }
+  .vsi-rolleyes-mobi {
+    display: block;
+    width: auto;
+  }
+  .vsi-bata-pink {
+    display: none;
+  }
+  .vsi-simple {
+    padding: 0;
+  }
+  .text-simple .boder-text {
+    display: none;
+  }
+  .text-simple {
+    float: none !important;
+    width: auto;
+    padding: 15px;}
+  .vsi-fe1-simple{
+    padding-left: 0;
+    position: relative;
+    top: 0;
+    padding: 50px 0 0;
+  }
+  .vsi-tangspac{
+    display: none;
+  }
+  .vsi-tangspac-mobi{
+    display: block;
+    width: auto;
+  }
+  .vsi-tablet {
+    width: 42%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    bottom: 0 !important;
+    padding: 20px 0;
+}
+.vsi-pencil{
+    left: 0;
+    width: 2.5%;
+    /* padding: 20px; */
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    bottom: 0 !important;
+    margin: 20px;
+}
+
+.vsi-coffee{
+    left: 0;
+    width: 30%;
+    margin-left: -5%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    bottom: 0 !important;
+    padding: 20px 0;
+  }
+  .vsi-flat{
+    padding: 200px 15px 150px 15px;
+      background-size: 150% auto;
+  }
+  .vsi-text-flat {
+    display: block;
+    width: auto;
+    font-size: 13px;
+  }
+  .vsi-text-flat h1{
+    font-size: 35px;
+  }
+  .vsi-rocket{
+    width: 31%;
+  }
+}
+
+}
+@media (max-width: 1199.98px) {
+    
+}
+

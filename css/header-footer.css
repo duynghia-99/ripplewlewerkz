@@ -1,0 +1,410 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,400i,700";
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@font-face{
+  font-family:'Montserrat Hairline';
+  src:url("../font/Montserrat-Hairline.eot") format("embedded-opentype"), url("../font/Montserrat-Hairline.woff") format("woff"), url("../font/Montserrat-Hairline.ttf") format("truetype"), url("../font/Montserrat-Hairline.svg") format("svg");font-weight:normal;
+  font-style:normal;
+}
+ @font-face{
+   font-family:'Hominis';src:url("../font/HOMINIS.eot");src:url("../font/HOMINIS.eot/HOMINIS.eot") format("embedded-opentype"), url("../font/HOMINIS.woff2") format("woff2"), url("../font/HOMINIS.woff") format("woff"), url("../font/HOMINIS.ttf") format("truetype");}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.7 !important;
+    color: #000 !important;
+    font-size: 1rem !important;
+}
+h1,h2,h3,h4,p,a,span{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4{
+    font-weight: bold;
+}
+.btn{
+    border: none;
+}
+a{
+    color: #282b2e; 
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-top{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #282b2e;
+    color: #fff;
+    font-size: 16px;
+    align-items: center;
+ }
+.vsi-enquire .phone{
+    text-align: left;
+    height: 100%;
+}
+.vsi-enquire .phone p{
+    padding: 0px auto;
+    margin: 0 auto;
+}
+.vsi-enquire .enquire{
+    padding-left: 10px;
+    text-align: right;  
+}
+ a.button{
+    color:#fff;
+    font-size: 13px;
+}
+a.button:hover{
+    color: #fff;
+    background-color: #1d96c4;
+    transition: all 0.5s linear;
+}
+ .button{
+    padding: 10px 20px;
+    background:#ffa916;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+} 
+.header-nav{
+    width: 100%;
+    overflow: hidden;
+    line-height: 4;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:rgba(241, 233, 233, 0.863);
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+}
+.header-nav .navbar-collapse ul{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.header-nav .navbar-collapse ul li a{
+    color: #282b2e !important;
+    white-space: pre;	
+}
+.header-nav .navbar-collapse ul li a.btn{
+    color: #fff !important;
+}
+.header-nav .navbar-collapse ul li a.btn:hover{
+    color: #fff !important;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+.header-nav .navbar-collapse ul li{
+    display: flex;
+    padding: 15px;
+}
+.header-nav .navbar-collapse ul li a:hover{
+    color: #1d96c4 !important;
+    transition: all 0.5s linear !important;
+}
+.header-nav .navbar-collapse .icon-fb{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+        border: 2px solid #000;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 0;
+        display: none;
+}
+.header-nav .navbar-collapse  .fa-facebook-f{
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+    line-height: 1.0;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; 
+}
+.header-nav .navbar-collapse  .icon-fb::before{
+    content: " ";
+    position: absolute;
+    width: 0px;
+    height:0px;
+    top:0;
+    bottom: 0;
+    left: -3px;
+    right: 0px;
+    margin:auto;
+    border-radius: 50%;
+    background-color: aqua;
+    z-index: 1;
+}
+.text-center .icon-fb:hover::before{
+    width: 32px;
+    height: 32px;
+    transition: width 0.5s ,height 0.5s;
+    color: #fff;
+    background: #1d96c4;
+    border: #1d96c4;
+}
+.header-nav .navbar-collapse .copyright{
+        display: none;
+        text-align: center;
+}
+.header-nav .navbar-collapse ul li.border-bottom{
+    border-bottom: none !important;
+}
+
+
+
+/* ----- */
+.text-free h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.vsi-free .button-footer a{
+    border: none;
+    padding: 16px 20px;
+    background:#fff;
+    /* line-height: 3; */ 
+    font-weight: 700;
+    text-align: center;
+} 
+.vsi-free .button-footer a:hover{
+    color:#fff;
+    background: #ffa916;
+    transition: all 0.3s linear;
+}
+.text-center{
+    background-color: #282b2e;
+    padding: 40px 15px 50px 15px;
+} 
+.text-center h1 span{
+    color: #fff;
+}
+.text-center .icon-fb{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0;
+} 
+.text-center  .fa-facebook-f{
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 1.0;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; 
+}
+.text-center .icon-fb::before{
+    content: " ";
+    position: absolute;
+    width: 0px;
+    height:0px;
+    top:0;
+    bottom: 0;
+    left: -3px;
+    right: 0px;
+    margin:auto;
+    border-radius: 50%;
+    background-color: aqua;
+    z-index: 1;
+}
+.text-center .icon-fb:hover::before{
+    width: 32px;
+    height: 32px;
+    transition: width 0.5s ,height 0.5s;
+    color: #fff;
+    background: #1d96c4;
+    border: #1d96c4;
+}
+.text-center h1{
+    font-weight: normal;
+    font-size: 24px;
+}
+.text-center span{
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+}
+.text-center span::before{
+    right: 100%;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 1px;
+    background-color: rgba(225, 225, 225, 0.3);
+}
+.text-center span::after{
+    left: 100%;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 1px;
+    
+    background-color: rgba(225, 225, 225, 0.3);
+}
+.address h4{
+    color: #0096c4;
+    font-size: 24px;
+}
+.address .sin,.thai{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 0 40px;
+    font-size: 16px;
+    color: #fff;
+}
+/*  */
+.menu-footer{
+    width: 100%;
+    min-width: 100%;
+    padding: 0;
+    margin: 0;  
+}
+.menu-footer ul{
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+}
+.menu-footer ul li{
+    display: inline-block;
+    padding: 0;
+    margin: 0 9px;
+}
+.menu-footer ul li a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+}
+.menu-footer ul li a:hover{
+    color: #1d96c4;
+    transition: all 0.3s;
+}
+ .end-header{
+    background-color: #000;
+    font-size: 14px;
+    color: #fff;
+}
+.copyright p{
+    padding: 10px;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 3;
+} 
+
+
+/* --------------- */
+
+    @media (max-width: 575.98px) {
+        .vsi-enquire .enquire{
+            text-align: center; 
+      
+    }
+        .sub-menu-mobile{
+            display: block;
+        }
+        .header-nav .navbar-collapse ul li.discover-link{
+            display: none;
+           
+        }
+        .header-nav .navbar-collapse .icon-fb{
+            margin-top: 20px;
+            display: flex;
+        }
+        .header-nav .navbar-collapse .copyright{
+            margin: 100px 0px 50px 25px;
+            display: block;
+            text-align: center;
+        }
+        .header-nav .navbar-collapse ul li{
+            padding: 0px;
+        }
+        .header-nav .navbar-collapse ul li.border-bottom{
+            border-bottom: 1px solid #ccc !important;
+        }
+        .menu-footer ul {
+            text-align: center;
+        }
+        .copyright p{
+            line-height: 2;
+        }
+    }
+    @media (max-width: 767.98px) {
+        .sub-menu-mobile{
+            display: block;
+        }
+        .header-nav .navbar-collapse ul li.discover-link{
+            display: none;
+           
+        }
+        .header-nav .navbar-collapse .icon-fb{
+            margin-top: 20px;
+            display: flex;
+        }
+        .header-nav .navbar-collapse .copyright{
+            margin: 100px 0px 50px 25px;
+            display: flex;
+            text-align: center;
+        }
+        .header-nav .navbar-collapse ul li{
+            padding: 0px;
+        }
+        .header-nav .navbar-collapse ul li.border-bottom{
+            border-bottom: 1px solid #ccc !important;
+        }
+        .menu-footer ul {
+            text-align: center;
+        }
+    
+    }
+    @media (max-width: 991.98px) {
+        .menu-footer ul {
+            text-align: center;
+        }
+    
+    }
+    @media (max-width: 1199.98px) {
+        
+    }

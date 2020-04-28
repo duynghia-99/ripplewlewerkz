@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Singapore | Website Designer | Web Development - Ripplewerkz</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="lib/css/reset.css">
+    <link rel="stylesheet" href="lib/css/all.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/css/aos.css">
+    <link rel="stylesheet" href="lib/css/swiper.min.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="lib/css/ripple.css">
+    <link rel="stylesheet" href="css/home.css"> 
+</head>
+<body >
+    <header id="vsi-header">
+        <my-header></my-header>
+    </header>
+    <main>
+        <section id="vsi-slider" class="vsi-build-swiper">
+           <my-slider></my-slider>
+        </section>
+        <section id="vsi-text-works" >
+            <my-vsi-fe1-text></my-vsi-fe1-text>
+        </section>
+        <section id="vsi-capabilities">
+            <my-our-capabilities></my-our-capabilities>
+        </section>
+        <section id="vsi-section-fixed1">
+            <my-section-fixed1></my-section-fixed1>
+        </section>
+        <section id="vsi-featured-projects">
+            <my-featured-projects></my-featured-projects>
+        </section>
+        <section id="vsi-our-happy">
+            <my-our-happy></my-our-happy>   
+        </section>
+        <section id="vsi-img-logo">
+            <my-img-logo></my-img-logo>
+        </section>
+        <section id="vsi-circle-bg">
+            <my-circle-bg></my-circle-bg>
+        </section>
+    </main>
+    <footer id="vsi-footer">
+       <my-footer></my-footer>
+    </footer> 
+    <!--  -->
+    <script src="lib/js/jquery-3.4.1.min.js"></script>
+    <script src="lib/js/all.min.js"></script>
+    <script src="lib/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="lib/js/aos.js"></script>
+    <script src="lib/js/swiper.min.js"></script>
+    <script src="lib/js/jquery.materialripple.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
+    <script src="https://unpkg.com/http-vue-loader"></script> 
+    <script>
+         AOS.init({
+        once: true
+        })
+    </script>
+    <script type="text/javascript">
+        new Vue({
+          el: '#vsi-header',
+          components: {
+            'my-header': httpVueLoader('my-header.vue')
+          }
+        });
+        new Vue({
+          el: '#vsi-slider',
+          components: {
+            'my-slider': httpVueLoader('my-slider.vue')
+          }
+        });
+        new Vue({
+          el: '#vsi-text-works',
+          components: {
+            'my-vsi-fe1-text': httpVueLoader('my-vsi-fe1-text.vue')
+          }
+        });
+        new Vue({
+          el: '#vsi-capabilities',
+          components: {
+            'my-our-capabilities': httpVueLoader('my-our-capabilities.vue')
+          }
+        });
+        new Vue({
+			el: '#vsi-section-fixed1',
+			components: {
+				'my-section-fixed1': httpVueLoader('my-section-fixed1.vue')
+			},
+			updated: function () {
+				new Swiper('.swiper-container', {
+					spaceBetween: 30,
+					loop: true,
+					loopedSlides: 1,
+					centeredSlides: true,
+					autoplay: {
+					  delay: 9000,
+					  disableOnInteraction: false,
+					},
+					pagination: {
+					  el: '.swiper-pagination',
+					  clickable: true,
+					},
+					navigation: {
+					  nextEl: '.swiper-button-next',
+					  prevEl: '.swiper-button-prev',
+					},
+				});
+			}
+        });
+        new Vue({
+          el: '#vsi-featured-projects',
+          components: {
+            'my-featured-projects': httpVueLoader('my-featured-projects.vue')
+          }
+        });
+        new Vue({
+          el: '#vsi-our-happy',
+          components: {
+            'my-our-happy': httpVueLoader('my-our-happy.vue')
+          }
+        });
+        new Vue({
+          el: '#vsi-img-logo',
+          components: {
+            'my-img-logo': httpVueLoader('my-img-logo.vue')
+          }
+        });
+        new Vue({
+          el: '#vsi-circle-bg',
+          components: {
+            'my-circle-bg': httpVueLoader('my-circle-bg.vue')
+          }
+        });
+        new Vue({
+          el: '#vsi-footer',
+          components: {
+            'my-footer': httpVueLoader('my-footer.vue')
+          }
+        });
+    </script>
+ 
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+
+.vsi-our-services{
+    padding: 40px 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/our-services/banner4-1.jpg");
+    background-attachment: inherit;
+    background-position: 50% 50% !important;
+}
+.vsi-title{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.vsi-title h1{
+    
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+.vsi-title p{
+    margin: 0;
+    padding: 10px 0;
+    line-height: 1.6;
+    text-align: center;
+}
+.vsi-title h4{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold !important;
+}
+/* ---- */
+.vsi-design{
+    padding-top: 50px;
+}
+.vsi-fe1-text__box{
+    color: #555;
+    font-size: 16px;
+}
+.vsi-fe1-text__box h1{
+    line-height: 1.1;
+    font-size: 36px;
+    color: #282b2e;
+    padding-bottom: 10px;
+}
+/* --- */
+.auto-img{
+    max-width: 100%;
+    height: auto;
+}
+.fe1-view-left{
+    padding-right: 30px;
+}
+.fe1-view-right{
+    padding-left: 30px;
+    color: #282b2e;
+}
+.fe1-view-right h4{
+    font-size: 18px;
+    padding: 10px 0;
+}
+.fe1-view-right ul li::before{
+    content: "\f105"; 
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "FontAwesome";
+}
+.fe1-view-right ul li{
+    color: #555;
+    position: relative;
+    margin: 10px 0;
+    padding-left: 16px;
+}
+.portfolio .btn{
+    border: none;
+    min-width: 180px;
+    margin-right: 0;
+    background: #1d96c4;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05);
+}
+.portfolio .btn:hover{
+    background: #ff9a16;
+    color: #fff;
+}
+/* --- */
+.vsi-sub-main{
+    background-color: #fafafa;
+    padding-top: 50px;
+}
+.vsi-fe1-corporate{
+    color: #555;
+    font-size: 16px;
+}
+.vsi-fe2-corporate h1{
+    line-height: 1.1;
+    font-size: 36px;
+    color: #282b2e;
+    padding-bottom: 10px;
+}
+.fe2-view-right{
+    text-align: right;
+    float: right;
+    /* padding-right: 30px; */
+}
+.fe2-view-left{
+    float: left;
+    padding-left: 30px;
+    color: #282b2e;
+}
+.fe2-view-left h4{
+    font-size: 18px;
+    padding: 10px 0;
+}
+.fe2-view-left ul li::before{
+    content: "\f105"; 
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "FontAwesome";
+}
+.fe2-view-left ul li{
+    color: #555;
+    position: relative;
+    margin: 10px 0;
+    padding-left: 16px;
+}
+
+
+
+
